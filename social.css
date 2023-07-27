@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 100vw; /* para a imagem ocupar a largura total da wilport*/
+
+}
+
+::-webkit-scrollbar { /*esconde a rolagem lateral*/
+    width: 10px;
+    height: 0px;
+}
+
+a {
+    display: block;
+    background-color: darkred;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: none;
+}
+a:hover {
+    background-color: red;
+}
